@@ -1,0 +1,54 @@
+# === Arduino / PlatformIO ===
+*.pio/
+.pio/
+.vscode/
+*.elf
+*.bin
+*.hex
+*.map
+*.d
+*.o
+build/
+*.ino.*
+libdeps/
+.clangd
+*.pyc
+__pycache__/
+
+# === Python ===
+*.pyc
+__pycache__/
+env/
+.venv/
+*.log
+*.csv
+
+# === Vivado / FPGA ===
+*.jou
+*.log
+*.str
+*.bin
+*.bit
+*.xml
+*.xpr
+*.xpr~
+*.sdk/
+*.runs/
+*.ip_user_files/
+*.cache/
+*.hw/
+*.webtalk/
+*.data/
+*.srcs/
+*.sim/
+*.wdb
+*.wcfg
+*.dcp
+*.xilinx/
+usage_statistics_webtalk.xml
+
+# === General ===
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
